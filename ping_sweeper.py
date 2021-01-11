@@ -1,6 +1,6 @@
 # A simple ping sweeping script to scan live hosts over a network
 # Uses ICMP to send ECHO requests to hosts
-
+# Future Features: Multithreading
 import os, platform
 from datetime import datetime
 
