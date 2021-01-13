@@ -27,8 +27,9 @@ startTime = datetime.now()
 print("Scanning Live Hosts")
 
 for ip in range(startRange, endRange):
+	os = platform.system()
 	address = ip_address[0] + p + ip_address[1] + p + ip_address[2] + p + str(ip)
-	command = ping_Command(platform.system()) + address
+	command = ping_Command(os) + address
 	response = os.popen(command)
 
 	for line in response.readlines():
