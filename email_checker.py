@@ -8,6 +8,7 @@
 #		- Email format validation
 
 import re
+import time
 
 # use partition() or split() function
 def get_user(email):
@@ -26,9 +27,10 @@ def validate_email(email):
 	if(re.search(regex,email)):
 		return True
 
-email = "intan@fiske.com.my"
-
+email = input("Enter email address: ")
+startTime = time.time()
 if(validate_email(email)):
 	print("Email: ", email, " is valid")
 else:
 	print("Email: ", email, " is invalid")
+print('Total Time: ', round(time.time() - startTime,2), "(s)")
