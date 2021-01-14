@@ -6,6 +6,7 @@
 **11th Jan:** Using urllib.request has several uses. It's a precious module <br>
 **12th Jan:** An idea to implement a WHOIS tool (in progress) <br>
 **13th Jan:** Simple Email Format Validator using Regex (re module) <br>
+**14th Jan:** An idea to implement a Wallpaper downloader (in progress) <br>
 > Modules: 
 >	- urllib.request
 >	- os
