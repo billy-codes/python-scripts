@@ -8,6 +8,7 @@
 **13th Jan:** Simple Email Format Validator using Regex (re module) <br>
 > Reference: https://regex101.com/ <br>
 **14th Jan:** An idea to implement a Wallpaper downloader (in progress) <br>
+**15th Jan:** Learned about BeautifulSoup and findAll() to complete WHOIS script <br>
 > Modules: 
 >	- urllib.request
 >	- os

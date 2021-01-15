@@ -16,8 +16,8 @@
 #		- Interactive options for custom results output
 
 # 	Programming Principles
-#		- String manipulation
-#		- HTML parsing
+#		- String manipulation (using strip())
+#		- HTML parsing (using BeautifulSoup and findAll())
 #		- Manipulating array(s) data
 
 from bs4 import BeautifulSoup as bs
