@@ -1,6 +1,5 @@
 # A simple image download tool using urllib.requests module and shutil
 import urllib.request
-import shutil
 
 link = "https://w.wallhaven.cc/full/g7/wallhaven-g7jg63.png"
 file_name = link.split("/")[-1] # -1 outputs last element of array

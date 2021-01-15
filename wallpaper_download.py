@@ -2,6 +2,12 @@
 # It's good to copy the HTML source into a note editor 
 # and beautify it to know what to filter
 
+#	Future Features
+#	- Print current working directory
+#	- Multithreading option
+#	- Give users option to download n number of wallpapers
+#	- Give users option to specify types of wallpapers
+
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
 import urllib.request
