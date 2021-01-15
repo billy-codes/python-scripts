@@ -25,8 +25,7 @@ from urllib.request import urlopen
 
 whois_website = "https://who.is/whois/"
 
-# domain = input("Enter target domain: ")
-domain = "msn.com"
+domain = input("Enter target domain: ")
 domain = domain.replace("www.","").replace("https://","").replace("http://","")
 target = whois_website + domain
 
