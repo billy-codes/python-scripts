@@ -9,9 +9,10 @@
 **14th Jan:** An idea to implement a Wallpaper downloader (IN PROGRESS) <br>
 **15th Jan:** Learned about BeautifulSoup and findAll() to complete WHOIS script <br>
 > Reference: https://regex101.com/ 
-> Modules: 
+> Packages/Modules: 
 >	- urllib.request
 >	- os
 >	- time
 > 	- platform
 >	- re
+>	- BeautifulSoup
