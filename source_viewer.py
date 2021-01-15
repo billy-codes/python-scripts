@@ -2,7 +2,7 @@
 # Using either urllib2 module or request module
 
 # Future Features: 
-#	- Using Beautiful module to parse source codes and results
+#	- Using BeautifulSoup module to parse source codes and results
 #	- Command-line interface for parsing arguments
 #	- Validation for target URL
 
