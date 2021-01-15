@@ -7,7 +7,7 @@
 **12th Jan:** An idea to implement a WHOIS tool (COMPLETED) <br>
 **13th Jan:** Simple Email Format Validator using Regex (re module) <br>
 **14th Jan:** An idea to implement a Wallpaper downloader (IN PROGRESS) <br>
-**15th Jan:** Learned about BeautifulSoup and findAll() to complete WHOIS script <br>
+**15th Jan:** Learned about BeautifulSoup and findAll() to complete WHOIS script. Completed wallpaper downloader as well. Created a simple image downloader<br>
 > Reference: https://regex101.com/ 
 > Packages/Modules: 
 >	- urllib.request
