@@ -9,13 +9,13 @@
 [x] **14th Jan:** An idea to implement a Wallpaper downloader (COMPLETED) <br>
 [x] **15th Jan:** Learned about BeautifulSoup and findAll() to complete WHOIS script. Completed wallpaper downloader as well. Created a simple image downloader<br>
 ___
-##References: 
+## References: 
 > https://regex101.com/
 
 
 ___
 
-##Packages/Modules: 
+## Packages/Modules: 
 - urllib.request
 - os
 - time
