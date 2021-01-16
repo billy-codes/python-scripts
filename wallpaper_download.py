@@ -2,6 +2,9 @@
 # It's good to copy the HTML source into a note editor 
 # and beautify it to know what to filter
 
+# Author: Billy Khaled
+# Date: 15/01/2021
+
 #	Future Features
 #	- Print current working directory
 #	- Multithreading option
