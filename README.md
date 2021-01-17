@@ -9,10 +9,12 @@
 [x] **14th Jan:** An idea to implement a Wallpaper downloader (COMPLETED) <br>
 [x] **15th Jan:** Learned about BeautifulSoup and findAll() to complete WHOIS script. Completed wallpaper downloader as well. Created a simple image downloader<br>
 [x] **16th Jan:** Built a simple Bing Dork Scanner <br>
-[x] **17th Jan:** Built a simple Base64 encoder/decoder using argparse module to parse arguments <br>
+[x] **17th Jan:** Built a simple Base64 encoder/decoder featuring argparse module to parse arguments <br>
 ___
 ## References: 
-> https://regex101.com/
+> - https://regex101.com/
+> - https://docs.python.org/3/library/argparse.html
+> - https://docs.python.org/3/library/base64.html
 
 
 ___
