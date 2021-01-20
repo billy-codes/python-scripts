@@ -12,6 +12,7 @@
 [x] **17th Jan:** Built a simple Base64 encoder/decoder featuring argparse module to parse arguments <br>
 [x] **18th Jan:** Built a simple ROT13 Cipher Tool using simple math and translate() method <br>
 [ ] **19th Jan:** Idea to implement a GeoIP location resolver <br>
+[x] **20th Jan:** Completed GeoIP Resolver<br>
 ___
 ## References: 
 > - https://regex101.com/
@@ -21,6 +22,8 @@ ___
 ### Cryptography
 > - https://simple.wikipedia.org/wiki/ASCII
 
+### Web Scraping
+> - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 ___
 
