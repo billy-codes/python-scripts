@@ -7,7 +7,7 @@
 [-] **12th Jan:** An idea to implement a WHOIS tool (COMPLETED) <br>
 [x] **13th Jan:** Simple Email Format Validator using Regex (re module) <br>
 [-] **14th Jan:** An idea to implement a Wallpaper downloader (COMPLETED) <br>
-[x] **15th Jan:** Learned BeautifulSoup and findAll() & completed WHOIS script. Created wallpaper & simple image downloader<br>
+[x] **15th Jan:** Learned BeautifulSoup and findAll(). Completed WHOIS script, wallpaper & simple image downloader<br>
 [x] **16th Jan:** Built a simple Bing Dork Scanner <br>
 [x] **17th Jan:** Built a simple Base64 encoder/decoder featuring argparse module to parse arguments <br>
 [x] **18th Jan:** Built a simple ROT13 Cipher Tool using simple math and translate() method <br>
