@@ -4,14 +4,14 @@
 [x] **09th Jan:** I've used my IP Splitter script into my port scanner. Need more research on "sockets" in Python <br>
 [x] **10th Jan:** Adding a timer to your scripts benefits the user with more useful information <br>
 [x] **11th Jan:** Using urllib.request has several uses. It's a precious module <br>
-[ ] **12th Jan:** An idea to implement a WHOIS tool (COMPLETED) <br>
+[-] **12th Jan:** An idea to implement a WHOIS tool (COMPLETED) <br>
 [x] **13th Jan:** Simple Email Format Validator using Regex (re module) <br>
-[ ] **14th Jan:** An idea to implement a Wallpaper downloader (COMPLETED) <br>
-[x] **15th Jan:** Learned BeautifulSoup and findAll() & completed WHOIS script. Completed wallpaper & simple image downloader<br>
+[-] **14th Jan:** An idea to implement a Wallpaper downloader (COMPLETED) <br>
+[x] **15th Jan:** Learned BeautifulSoup and findAll() & completed WHOIS script. Created wallpaper & simple image downloader<br>
 [x] **16th Jan:** Built a simple Bing Dork Scanner <br>
 [x] **17th Jan:** Built a simple Base64 encoder/decoder featuring argparse module to parse arguments <br>
 [x] **18th Jan:** Built a simple ROT13 Cipher Tool using simple math and translate() method <br>
-[ ] **19th Jan:** Idea to implement a GeoIP location resolver <br>
+[-] **19th Jan:** Idea to implement a GeoIP location resolver <br>
 [x] **20th Jan:** Completed GeoIP Resolver<br>
 ___
 ## References: 
