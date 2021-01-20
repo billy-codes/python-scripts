@@ -6,7 +6,6 @@
 # Platform	: https://docs.python.org/3/library/platform.html
 # OS 		: https://docs.python.org/3/library/os.html
 
-
 import platform, os
 
 def using_os():
