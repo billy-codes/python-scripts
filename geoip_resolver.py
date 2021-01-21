@@ -9,6 +9,7 @@
 #	[ ] Save results to text file
 # 	[ ] Validate IP Address before tracing
 #	[ ] Error handling
+#	[ ] Use json to handle data
 
 from urllib import request
 from urllib.request import urlopen
