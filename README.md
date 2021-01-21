@@ -13,6 +13,7 @@
 [x] **18th Jan:** Built a simple ROT13 Cipher Tool using simple math and translate() method <br>
 [-] **19th Jan:** Idea to implement a GeoIP location resolver <br>
 [x] **20th Jan:** Completed GeoIP Resolver<br>
+[x] **21st Jan:** Created Fibonacci Calculator and Reverse Cipher<br>
 ___
 ## References: 
 > - https://regex101.com/
