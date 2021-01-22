@@ -14,6 +14,7 @@
 [-] **19th Jan:** Idea to implement a GeoIP location resolver <br>
 [x] **20th Jan:** Completed GeoIP Resolver<br>
 [x] **21st Jan:** Created Fibonacci Calculator and Reverse Cipher<br>
+[-] **22nd Jan:** An idea to develop a URL shortner in Python<br>
 ___
 ## References: 
 > - https://regex101.com/
