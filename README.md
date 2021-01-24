@@ -15,6 +15,8 @@
 [x] **20th Jan:** Completed GeoIP Resolver<br>
 [x] **21st Jan:** Created Fibonacci Calculator and Reverse Cipher<br>
 [-] **22nd Jan:** An idea to develop a URL shortner in Python<br>
+[+] **23rd Jan:** Simple Tinyurl Link Generator Completed<br>
+[+] **24th Jan:** Extension-based Files Lister Completed<br>
 ___
 ## References: 
 > - https://regex101.com/
