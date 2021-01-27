@@ -17,6 +17,9 @@
 [-] **22nd Jan:** An idea to develop a URL shortner in Python<br>
 [+] **23rd Jan:** Simple Tinyurl Link Generator Completed<br>
 [+] **24th Jan:** Extension-based Files Lister Completed<br>
+[-] **25th Jan:** Made a one-liner for file lister<br>
+[+] **26th Jan:** Introduction to Bash Scripting<br>
+[-] **27th Jan:** Idea to create a simple password generator<br>
 ___
 ## References: 
 > - https://regex101.com/
