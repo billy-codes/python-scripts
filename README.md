@@ -20,6 +20,7 @@
 [-] **25th Jan:** Made a one-liner for file lister<br>
 [+] **26th Jan:** Introduction to Bash Scripting<br>
 [-] **27th Jan:** Idea to create a simple password generator<br>
+[-] **28th Jan:** Idea to create a Youtube Video downloader<br>
 ___
 ## References: 
 > - https://regex101.com/
