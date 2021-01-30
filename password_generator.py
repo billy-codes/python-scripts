@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Future Features: 
+#   - Add options to include/excluse alphabets, numbers, symbols
 
 import string
 import random
