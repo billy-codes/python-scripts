@@ -21,6 +21,9 @@
 [+] **26th Jan:** Introduction to Bash Scripting<br>
 [-] **27th Jan:** Idea to create a simple password generator<br>
 [-] **28th Jan:** Idea to create a Youtube Video downloader<br>
+[+] **29th Jan:** Built a simple password generator<br>
+[-] **30th Jan:** Reasearch on Youtube Video downloader project<br>
+[-] **31st Jan:** An idea to simple login bruteforcer<br>
 ___
 ## References: 
 > - https://regex101.com/
