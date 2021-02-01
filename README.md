@@ -23,7 +23,8 @@
 [-] **28th Jan:** Idea to create a Youtube Video downloader<br>
 [+] **29th Jan:** Built a simple password generator<br>
 [-] **30th Jan:** Reasearch on Youtube Video downloader project<br>
-[-] **31st Jan:** An idea to simple login bruteforcer<br>
+[-] **31st Jan:** An idea to create a simple login bruteforcer<br>
+[-] **1st Fan:** An idea to simple packet sniffer<br>
 ___
 ## References: 
 > - https://regex101.com/
