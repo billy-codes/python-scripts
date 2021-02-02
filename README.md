@@ -25,7 +25,7 @@
 [-] **30th Jan:** Reasearch on Youtube Video downloader project<br>
 [-] **31st Jan:** An idea to create a simple login bruteforcer<br>
 [-] **1st Feb:** An idea to create simple packet sniffer<br>
-[-] **2nd Feb:** An idea to create a simple subdomain bruteforcer<br>
+[-] **2nd Feb:** An idea to create a simple subdomain bruteforcer. Need to stop procrastinating.<br>
 ___
 ## References: 
 > - https://regex101.com/
