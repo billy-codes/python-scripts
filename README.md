@@ -26,6 +26,7 @@
 [-] **31st Jan:** An idea to create a simple login bruteforcer<br>
 [-] **1st Feb:** An idea to create simple packet sniffer<br>
 [-] **2nd Feb:** An idea to create a simple subdomain bruteforcer. Need to stop procrastinating.<br>
+[-] **3rd Feb:** An idea to create a tic-tac-toe game <br>
 ___
 ## References: 
 > - https://regex101.com/
