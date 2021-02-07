@@ -28,6 +28,7 @@
 [-] **2nd Feb:** An idea to create a simple subdomain bruteforcer. Need to stop procrastinating.<br>
 [-] **3rd Feb:** An idea to create a tic-tac-toe game <br>
 [-] **4th Feb:** An idea to create a simple Webpage Links extractor<br>
+[-] **7th Feb:** Was away for a vacation. Need to get back on track, <br>
 ___
 ## References: 
 > - https://regex101.com/
