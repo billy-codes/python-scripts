@@ -31,7 +31,7 @@
 [-] **7th Feb:** Was away for a vacation. Need to get back on track. <br>
 [-] **16th Feb:** To create a currency exchange rates script. <br>
 [-] **17th Feb:** To create a file clone deleter script. <br>
-[+] **18th Feb:** Create a simple currency exchange script (API)
+[+] **18th Feb:** Created a simple currency exchange script (API)
 ___
 ## References: 
 > - https://regex101.com/
