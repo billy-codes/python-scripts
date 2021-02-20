@@ -2,4 +2,4 @@
 # download instagram pictures of 
 # a public profile
 
-import url
+import urllib.request
