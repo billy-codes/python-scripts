@@ -33,6 +33,7 @@
 [-] **17th Feb:** To create a file clone deleter script. <br>
 [+] **18th Feb:** Created a simple currency exchange script (API)
 [+] **23rd Feb:** Created a simple web page link extractor
+[-] **24th Feb:** To create a simple chat application
 ___
 ## References: 
 > - https://regex101.com/
