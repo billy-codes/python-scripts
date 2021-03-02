@@ -34,7 +34,9 @@
 [+] **18th Feb:** Created a simple currency exchange script (API) <br>
 [+] **23rd Feb:** Created a simple web page link extractor <br>
 [-] **24th Feb:** To create a simple chat application <br>
-[-] **25th Feb:** To create a QR code generator
+[-] **25th Feb:** To create a QR code generator <br>
+[+] **26th Feb:** Created a simple QR Code Generator <br>
+[-] **1st Mar:** Added features to QR Code Generator <br>  
 ___
 ## References: 
 > - https://regex101.com/
