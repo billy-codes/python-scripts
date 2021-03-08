@@ -24,15 +24,21 @@ class Vigenere:
             shift = ord(x) - 65 # 65 is ascii for first letter 'A'
             ciphered = shift + ord(y)
             if(ciphered > 90):
-                ciphered = (ciphered - 91) + 65
+                ciphered = ciphered - 91 + 65
             encoded.append(chr(ciphered))
         return ''.join(l for l in encoded)
 
     def decrypt(self, encrypted, key):
         decoded = []
         for x,y in zip(encrypted, key):
-            shift = ord(x) - ord(y)
-            deciphered = shift + 65
+            shift_count = 1
+            start = ord(y)
+            while start != ord(x):
+                start+=1
+                shift_count+=1
+                if(start == 90): # if char reaches 'Z'
+                    start = 65
+            deciphered = 65 + shift_count
             decoded.append(chr(deciphered))
         return ''.join(l for l in decoded)
 
