@@ -42,3 +42,13 @@ def availability(username):
     if "free" in str(response): 
         return True
 
+if __name__ == '__main__':
+    print("Checking Username...")
+    if(validate(args.username)):
+        print("Username is Valid!")
+        if(availability(args.username)):
+            print("Username is Available!")
+        else:
+            print("Username is not available")
+    else:
+        print("Username is not valid")
