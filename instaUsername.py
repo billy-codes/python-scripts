@@ -26,29 +26,3 @@ def validate(username):
     if(re.search(regex,username)):
         return True
 
-def availability(username):
-    # use instausername.com to check for availability
-    url = "https://instausername.com/availability?q="
-    instaProfile = url + username
-
-    opener = urllib.request.build_opener()
-    opener. addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)')]
-    urllib.request.install_opener(opener)
-    client = urlopen(instaProfile)
-    sourceCode = bs(client.read(), "html.parser")
-    client.close()
-    
-    response = sourceCode.findAll("div", {"class","frm--msg sccs"})
-    if "free" in str(response): 
-        return True
-
-if __name__ == '__main__':
-    print("Checking Username...")
-    if(validate(args.username)):
-        print("Username is Valid!")
-        if(availability(args.username)):
-            print("Username is Available!")
-        else:
-            print("Username is not available")
-    else:
-        print("Username is not valid")
