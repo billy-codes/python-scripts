@@ -16,12 +16,12 @@ parser = argparse.ArgumentParser(
     epilog = "Author: Billy Khaled, billy.codes@gmail.com"
 )
 
-# parser.add_argument("-m", "--md5", metavar='', required=True, help="Enter MD5 Hash to Crack")
+parser.add_argument("-m", "--md5", metavar='', required=True, help="Enter MD5 Hash to Crack")
 parser.add_argument("-w", "--wordlist", metavar='', required=True, help="Wordlist File in .txt")
 
 args, unknown = parser.parse_known_args()
 
-# userHash = args.hash
+userHash = args.md5
 wordlist = args.wordlist
 
 def hashed(string):
@@ -34,6 +34,11 @@ except:
     print("Error Reading Wordlist")
 
 for line in lines:
-    print(hashed(line))
+    if(userHash == hashed(line.strip())):
+        print("Hashed Cracked!")
+        print("MD5 Hash: ", userHash)
+        print("Plaintext: ", line)
+        break
+    
 
 
