@@ -33,12 +33,20 @@ try:
 except:
     print("Error Reading Wordlist")
 
-for line in lines:
-    if(userHash == hashed(line.strip())):
-        print("Hashed Cracked!")
-        print("MD5 Hash: ", userHash)
-        print("Plaintext: ", line)
-        break
+cracked = 0
+if __name__ == '__main__':
+    timeStart = time.time()
+    for line in lines:
+        if(userHash == hashed(line.strip())):
+            print("Hashed Cracked!")
+            print("MD5 Hash: ", userHash)
+            print("Plaintext: ", line)
+            cracked = 1
+            break
+    if(not cracked):
+        print("No Plaintext found")
+
+    print("Total Time: ", round(time.time() - timeStart, 4), "(s)")
     
 
 
