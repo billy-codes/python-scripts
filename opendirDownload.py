@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup as bs
 import urllib.request
 from urllib.request import urlopen
 
+links = []
 parser = argparse.ArgumentParser(
     description = "Open Directory Files Downloader w/ Filters",
     usage = os.path.basename(__file__) + " -u <URL> -f <filetype filter",
@@ -29,13 +30,12 @@ opener.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)')]
 urllib.request.install_opener(opener)
 
 # make requests and grab links
-try:
-    client = urlopen(args.url)
-    sourceCode = bs(client.read(), 'html.parser')
-    client.close()
-except:
-    print("Invalid URL")
-    break
+client = urlopen(args.url)
+sourceCode = bs(client.read(), 'html.parser')
+client.close()
 
 response = sourceCode.findAll("a")
-print(response.get('href'))
+
+for link in response:
+    links.append(link.get('href'))
+print(links[5:])
