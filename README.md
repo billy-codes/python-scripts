@@ -37,6 +37,8 @@
 [-] **25th Feb:** To create a QR code generator <br>
 [+] **26th Feb:** Created a simple QR Code Generator <br>
 [-] **1st Mar:** Added features to QR Code Generator <br>  
+
+This readme needs a redo and reformatting
 ___
 ## References: 
 > - https://regex101.com/
