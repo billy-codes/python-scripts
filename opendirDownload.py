@@ -44,10 +44,22 @@ for link in response:
 links = links[5:] 
 
 # download files
-for i in range(0, 1):
-    print("Downloading [",i,"/",len(links),"]: ", links[i])
+fileCount = 0
 
-    downloadURL = args.url + links[i]
-    r = requests.get(downloadURL, allow_redirects=True)
-    open(links[i], 'wb').write(r.content)
-print("Downloaded ", len(links), " files.")
+if(args.filter):
+    for i in range(0, len(links)):
+        if(args.filter in links[i]):
+            fileCount+=1
+            print("Downloading: ", links[i])
+            downloadURL = args.url + links[i]
+            r = requests.get(downloadURL, allow_redirects=True)
+            open(links[i], 'wb').write(r.content)
+else:
+    for i in range(0, len(links)):
+        print("Downloading: ", links[i])
+        fileCount+=1
+        downloadURL = args.url + links[i]
+        r = requests.get(downloadURL, allow_redirects=True)
+        open(links[i], 'wb').write(r.content)
+    
+print("Downloaded ", fileCount, " files.")
