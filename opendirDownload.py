@@ -11,6 +11,7 @@ import os
 from bs4 import BeautifulSoup as bs
 import urllib.request
 from urllib.request import urlopen
+import requests
 
 links = []
 parser = argparse.ArgumentParser(
@@ -38,4 +39,15 @@ response = sourceCode.findAll("a")
 
 for link in response:
     links.append(link.get('href'))
-print(links[5:])
+
+# remove first 4 directory navigation links
+links = links[5:] 
+
+# download files
+for i in range(0, 1):
+    print("Downloading [",i,"/",len(links),"]: ", links[i])
+
+    downloadURL = args.url + links[i]
+    r = requests.get(downloadURL, allow_redirects=True)
+    open(links[i], 'wb').write(r.content)
+print("Downloaded ", len(links), " files.")
