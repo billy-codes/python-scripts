@@ -1,6 +1,7 @@
 # A simple bandwidth monitoring tool
 # that displays amount of received 
-# and sent data
+# and sent data since the computer
+# was switched on
 
 # Requirements: pip3 install psutil
 # rx -> Received
@@ -22,7 +23,6 @@ while True:
     # get new rx and tx values
     new_rx = psutil.net_io_counters().bytes_recv
     new_tx = psutil.net_io_counters().bytes_sent
-
     displayUnit(new_rx, new_tx)
     time.sleep(timeInterval)
     
