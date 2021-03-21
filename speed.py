@@ -12,3 +12,4 @@ s = speedtest.Speedtest()
 
 
 print("Download Speed: ", s.download())
+print("Upload Speed: ", s.upload())
