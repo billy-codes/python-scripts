@@ -14,7 +14,10 @@ timeStart = time.time()
 
 print("Testing Speed...")
 
+# get the closes and best server available
+s.get_best_server()
+
+# results
 print("Download Speed: ", s.download())
 print("Upload Speed: ", s.upload())
-
 print("Total Time: ", round(time.time() - timeStart,2),"(s)")
