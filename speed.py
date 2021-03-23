@@ -21,3 +21,7 @@ s.get_best_server()
 print("Download Speed: ", s.download())
 print("Upload Speed: ", s.upload())
 print("Total Time: ", round(time.time() - timeStart,2),"(s)")
+
+# store them in a dictionary 
+# res = s.results.dict()
+# print(res['download'], res['upload'], res['ping'])
