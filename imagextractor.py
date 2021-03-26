@@ -22,4 +22,11 @@ opener = urllib.request.build_opener()
 opener.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)')]
 urllib.request.install_opener(opener)
 
+if __name__ == '__main__':
+    client = urlopen(args.url)
+    source_code = bs(client.read(), "html.parser")
+    client.close()
+
+    
+
 
