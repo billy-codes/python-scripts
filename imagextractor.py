@@ -27,6 +27,20 @@ if __name__ == '__main__':
     source_code = bs(client.read(), "html.parser")
     client.close()
 
-    
+    response = source_code.findAll("img")
+
+    timeStart = time.time()
+    downloads = 0
+
+    image = response.get('src')
+    fileName = image.split("/")[-1]
+
+    #download image
+    urllib.request.urlretrieve(image, fileName)
+    print("Downloaded: ", fileName)
+    downloads +=1
+
+    print("Total Images: ", downloads)
+    print("Total Time: ", round(time.time() - timeStart,2), "(s")
 
 
