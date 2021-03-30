@@ -4,20 +4,18 @@
 import random 
 
 def diceValue():
-    return random.randint(1,6)
+    diceVal = random.randint(1,6)
+    results.append(diceVal)
+    return diceVal
 
 results = []
-diceValue = diceValue()
-print(diceValue)
-results.append(diceValue)
+print(diceValue())
+
 while True:
-    
     choice = input("Roll again? (y/n): ")
-    if choice.lower() == "y":
-        diceValue = diceValue()
-        results.append(diceValue)
+    if choice.lower() == "y":  
         print(diceValue())
     else: 
         break
-
-print("Dice Roll Ended")
+print("Results: ")    
+print(','.join(str(res) for res in results))
